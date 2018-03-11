@@ -1,2 +1,2 @@
 # projects
-MIgration projects
+Migration projects
