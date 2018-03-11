@@ -1,0 +1,9 @@
+name: cnid-sb-postgres
+path: target/springboot-postgres-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1GB
+random-route: true
+services:
+ - mypostgresql
+env:
+  spring_jpa_hibernate_ddl-auto: update

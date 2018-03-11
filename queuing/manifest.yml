@@ -1,0 +1,11 @@
+name: cnid-sb-rabbitmq
+path: ./target/springboot-rabbitmq-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1GB
+random-route: true
+services:
+ - rabbitmqservice
+ - postgresqlservice
+env:
+  spring_jpa_hibernate_ddl-auto: update
+  app.property.env.name: RIBBITMQ_APP
