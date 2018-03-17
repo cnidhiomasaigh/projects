@@ -6,7 +6,7 @@
 	<groupId>com.cnid.springboot.rabbitmq</groupId>
 	<artifactId>springboot-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>springbootrabbitmq</name>
 	<description>RabbitMQ Project to Migrage</description>
