@@ -8,4 +8,3 @@ services:
  - postgresqlservice
 env:
   spring_jpa_hibernate_ddl-auto: update
-  app.property.env.name: RIBBITMQ_APP
